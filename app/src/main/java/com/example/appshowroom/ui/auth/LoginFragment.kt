@@ -8,11 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
-import com.example.appshowroom.R
 import com.example.appshowroom.data.repository.AuthRepository
-import com.example.appshowroom.databinding.ActivityMainBinding
 import com.example.appshowroom.databinding.FragmentLoginBinding
-import kotlin.math.log
 
 class LoginFragment : Fragment() {
     val parent: AuthActivity by lazy { activity as AuthActivity }

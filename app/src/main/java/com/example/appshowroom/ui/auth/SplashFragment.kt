@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.appshowroom.R
 import com.example.appshowroom.data.repository.AuthRepository
 import com.example.appshowroom.databinding.FragmentSplashBinding
 import kotlinx.coroutines.*

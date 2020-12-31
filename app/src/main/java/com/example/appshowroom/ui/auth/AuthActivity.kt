@@ -17,7 +17,7 @@ class AuthActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_auth)
     }
 
-    fun onSuccess(user: AuthUser?){
+    fun onSuccess(user: AuthUser?) {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
         finish()
